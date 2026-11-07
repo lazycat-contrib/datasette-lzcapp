@@ -1,0 +1,18 @@
+package: community.lazycat.app.datasette
+name: datasette
+version: 0.65.5
+description: "An open source multi-tool for exploring and publishing data: point it at SQLite databases and get an instant browsable web UI with a JSON API."
+min_os_version: "1.5.0"
+homepage: https://github.com/simonw/datasette
+author: simonw
+license: Apache-2.0
+permissions:
+  required:
+    - net.internet
+locales:
+  zh:
+    name: Datasette 数据浏览器
+    description: "把 SQLite 数据库变成可浏览的网页应用：自动生成表浏览、查询界面与 JSON API。"
+  en:
+    name: Datasette
+    description: "Explore and publish SQLite databases with an instant web UI and JSON API."
